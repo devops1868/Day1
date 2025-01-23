@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **Demo Repo for Practising 20Days DevOps to GitOps Series**
 
 You can use the videos and blogs mentioned here to practice and gain confidence in DevOps.
@@ -40,3 +41,6 @@ You can use the videos and blogs mentioned here to practice and gain confidence 
 
 ## **More Content**  
 [Explore Sagar Kakkala's World](https://linktr.ee/sagar_kakkalas_world)
+=======
+# Day1
+>>>>>>> a8adc7428b19c0265526ae0633d4716d8cae8360
