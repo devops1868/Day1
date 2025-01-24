@@ -2,7 +2,7 @@ export const sliderItems = [
   {
     id: "1",
     img: "assets/braclet/main.jfif",
-    title: "Day1 React and Nginx is updated succuessfully",
+    title: "Day1 React and Nginx application is deployed succuessfully",
     desc: "This is now in new commit",
     bg: "green",
   },
