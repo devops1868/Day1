@@ -3,23 +3,18 @@ os: linux
 files:
   - source: /
     destination: /var/www/react-app
+
 hooks:
   ApplicationStop:
-    - location:
+    - location: scripts/application_stop.sh
       timeout: 300
       runas: root
-      content: |
-        sudo systemctl stop nginx
   AfterInstall:
-    - location:
+    - location: scripts/after_install.sh
       timeout: 300
       runas: root
-      content: |
-        sudo chown -R ubuntu:ubuntu /var/www/react-app
-        sudo chmod -R 755 /var/www/react-app
   ApplicationStart:
-    - location:
+    - location: scripts/application_start.sh
       timeout: 300
       runas: root
-      content: |
-        sudo systemctl start nginx
+
