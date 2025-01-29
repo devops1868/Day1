@@ -3,4 +3,9 @@ os: linux
 files:
   - source: /
     destination: /var/www/react-app
-
+ApplicationStart:
+    - location: 
+      timeout: 300
+      runas: root
+      content: |
+        sudo systemctl restart nginx
